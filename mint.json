@@ -58,46 +58,55 @@
     {
       "group": "User Creation",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "api-reference/user-creation/get",
+        "api-reference/user-creation/create",
+        "api-reference/user-creation/update",
+        "api-reference/user-creation/delete"
       ]
     },
     {
       "group": "Access Control",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "api-reference/access-control/get",
+        "api-reference/access-control/create",
+        "api-reference/access-control/update",
+        "api-reference/access-control/delete"
       ]
     },
     {
       "group": "Invoice Creation",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "api-reference/invoice-creation/get",
+        "api-reference/invoice-creation/create",
+        "api-reference/invoice-creation/update",
+        "api-reference/invoice-creation/delete"
       ]
     },
     {
       "group": "Tuition Payment",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "api-reference/tuition-payment/get",
+        "api-reference/tuition-payment/create",
+        "api-reference/tuition-payment/update",
+        "api-reference/tuition-payment/delete"
+      ]
+    },
+    {
+      "group": "Savings",
+      "pages": [
+        "api-reference/savings/get",
+        "api-reference/savings/create",
+        "api-reference/savings/update",
+        "api-reference/savings/delete"
       ]
     },
     {
       "group": "Employee Payroll",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "api-reference/employee-payroll/get",
+        "api-reference/employee-payroll/create",
+        "api-reference/employee-payroll/update",
+        "api-reference/employee-payroll/delete"
       ]
     }
   ],
