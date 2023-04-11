@@ -41,7 +41,7 @@
   "navigation": [
     {
       "group": "Home",
-      "pages": ["introduction", "home/quickstart", "home/environments"]
+      "pages": ["introduction", "home/quickstart", "home/enviroments"]
     },
     {
       "group": "Entities",
@@ -51,8 +51,8 @@
       "group": "Overview",
       "pages": [
         "api-reference/authentication", 
-        "api-reference/rate-Limits", 
-        "api-reference/status-and-Error-Codes"
+        "api-reference/rate-limits", 
+        "api-reference/status-and-error-codes"
       ]
     },
     {
@@ -60,6 +60,41 @@
       "pages": [
         "api-reference/user-creation/rest",
         "api-reference/user-creation/graphql"
+      ]
+    },
+    {
+      "group": "Access Control",
+      "pages": [
+        "api-reference/access-control/rest",
+        "api-reference/access-control/graphql"
+      ]
+    },
+    {
+      "group": "Invoice Creation",
+      "pages": [
+        "api-reference/invoice-creation/rest",
+        "api-reference/invoice-creation/graphql"
+      ]
+    },
+    {
+      "group": "Tuition Payment",
+      "pages": [
+        "api-reference/tuition-payment/rest",
+        "api-reference/tuition-payment/graphql"
+      ]
+    },
+    {
+      "group": "Savings",
+      "pages": [
+        "api-reference/savings/rest",
+        "api-reference/savings/graphql"
+      ]
+    },
+    {
+      "group": "Employee Payroll",
+      "pages": [
+        "api-reference/employee-payroll/rest",
+        "api-reference/employee-payroll/graphql"
       ]
     }
   ],
