@@ -41,7 +41,7 @@
   "navigation": [
     {
       "group": "Home",
-      "pages": ["home/introduction", "home/quickstart", "home/environments"]
+      "pages": ["introduction", "home/quickstart", "home/environments"]
     },
     {
       "group": "Entities",
@@ -67,19 +67,19 @@
     {
       "group": "Access Control",
       "pages": [
-        "api-reference/access-control/get",
-        "api-reference/access-control/create",
-        "api-reference/access-control/update",
-        "api-reference/access-control/delete"
+        "api-reference/access-control/",
+        "api-reference/access-control/",
+        "api-reference/access-control/",
+        "api-reference/access-control/"
       ]
     },
     {
       "group": "Invoice Creation",
       "pages": [
-        "api-reference/invoice-creation/get",
-        "api-reference/invoice-creation/create",
-        "api-reference/invoice-creation/update",
-        "api-reference/invoice-creation/delete"
+        "api-reference/invoice-creation/",
+        "api-reference/invoice-creation/",
+        "api-reference/invoice-creation/",
+        "api-reference/invoice-creation/"
       ]
     },
     {
