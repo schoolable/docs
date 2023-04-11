@@ -58,55 +58,8 @@
     {
       "group": "User Creation",
       "pages": [
-        "api-reference/user-creation/get",
-        "api-reference/user-creation/create",
-        "api-reference/user-creation/update",
-        "api-reference/user-creation/delete"
-      ]
-    },
-    {
-      "group": "Access Control",
-      "pages": [
-        "api-reference/access-control/",
-        "api-reference/access-control/",
-        "api-reference/access-control/",
-        "api-reference/access-control/"
-      ]
-    },
-    {
-      "group": "Invoice Creation",
-      "pages": [
-        "api-reference/invoice-creation/",
-        "api-reference/invoice-creation/",
-        "api-reference/invoice-creation/",
-        "api-reference/invoice-creation/"
-      ]
-    },
-    {
-      "group": "Tuition Payment",
-      "pages": [
-        "api-reference/tuition-payment/get",
-        "api-reference/tuition-payment/create",
-        "api-reference/tuition-payment/update",
-        "api-reference/tuition-payment/delete"
-      ]
-    },
-    {
-      "group": "Savings",
-      "pages": [
-        "api-reference/savings/get",
-        "api-reference/savings/create",
-        "api-reference/savings/update",
-        "api-reference/savings/delete"
-      ]
-    },
-    {
-      "group": "Employee Payroll",
-      "pages": [
-        "api-reference/employee-payroll/get",
-        "api-reference/employee-payroll/create",
-        "api-reference/employee-payroll/update",
-        "api-reference/employee-payroll/delete"
+        "api-reference/user-creation/rest",
+        "api-reference/user-creation/graphql"
       ]
     }
   ],
