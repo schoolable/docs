@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Documentation | Schoolable",
   "logo": {
-    "dark": "./logo/schoolable-logo.png",
-    "light": "./logo/schoolable-logo.png"
+    "dark": "/logo/schoolable-logo",
+    "light": "/logo/schoolable-logo"
   },
   "favicon": "/favicon.png",
   "colors": {
