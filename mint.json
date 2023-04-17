@@ -58,43 +58,194 @@
     {
       "group": "User Creation",
       "pages": [
-        "api-reference/user-creation/rest",
-        "api-reference/user-creation/graphql"
+        {
+          "group": "REST Endpoints",
+          "pages": [        
+            "api-reference/user-creation/rest-endpoints/create-Organization",
+            "api-reference/user-creation/rest-endpoints/batch-Create-Students",
+            "api-reference/user-creation/rest-endpoints/batch-Create-Users",
+            "api-reference/user-creation/rest-endpoints/get-Family-Members",
+            "api-reference/user-creation/rest-endpoints/get-Organization-by-ID",
+            "api-reference/user-creation/rest-endpoints/get-Student's-Record",
+            "api-reference/user-creation/rest-endpoints/get-User-by-ID",
+            "api-reference/user-creation/rest-endpoints/get-User-Membership",
+            "api-reference/user-creation/rest-endpoints/get-User-Memberships-by-ID",
+            "api-reference/user-creation/rest-endpoints/list-Organization-Members",
+            "api-reference/user-creation/rest-endpoints/list-Students",
+            "api-reference/user-creation/rest-endpoints/list-SubOrganizations",
+            "api-reference/user-creation/rest-endpoints/login-User",
+            "api-reference/user-creation/rest-endpoints/onboard-Little-Users",
+            "api-reference/user-creation/rest-endpoints/update-User-Profile-Photo",
+            "api-reference/user-creation/rest-endpoints/update-User-Profile"
+          ]
+        },
+        {
+          "group": "GraphQL Queries",
+          "pages": [
+            "api-reference/user-creation/graphql-endpoints"
+          ]
+        }
       ]
     },
     {
       "group": "Access Control",
       "pages": [
-        "api-reference/access-control/rest",
-        "api-reference/access-control/graphql"
+        {
+          "group": "REST Endpoints",
+          "pages": [        
+            "api-reference/access-control/rest-endpoints/create-Attendance",
+            "api-reference/access-control/rest-endpoints/get-Access-Code-by-Family-ID",
+            "api-reference/access-control/rest-endpoints/get-Access-Code"
+          ]
+        },
+        {
+          "group": "GraphQL Queries",
+          "pages": [
+            "api-reference/access-control/graphql-endpoints"
+          ]
+        }
       ]
     },
     {
-      "group": "Invoice Creation",
+      "group": "Cards",
       "pages": [
-        "api-reference/invoice-creation/rest",
-        "api-reference/invoice-creation/graphql"
-      ]
-    },
-    {
-      "group": "Tuition Payment",
-      "pages": [
-        "api-reference/tuition-payment/rest",
-        "api-reference/tuition-payment/graphql"
-      ]
-    },
-    {
-      "group": "Savings",
-      "pages": [
-        "api-reference/savings/rest",
-        "api-reference/savings/graphql"
+        {
+          "group": "REST Endpoints",
+          "pages": [        
+            "api-reference/cards/rest-endpoints/batch-Upload-Cash-Cards",
+            "api-reference/cards/rest-endpoints/block-Card",
+            "api-reference/cards/rest-endpoints/fetch-Card-Details",
+            "api-reference/cards/rest-endpoints/initiate-Card-Transaction",
+            "api-reference/cards/rest-endpoints/unblock-Card"
+          ]
+        },
+        {
+          "group": "GraphQL Queries",
+          "pages": [
+            "api-reference/cards/graphql-endpoints"
+          ]
+        }
       ]
     },
     {
       "group": "Employee Payroll",
       "pages": [
-        "api-reference/employee-payroll/rest",
-        "api-reference/employee-payroll/graphql"
+        {
+          "group": "REST Endpoints",
+          "pages": [        
+            "api-reference/employee-payroll/rest-endpoints/batch-Create-Payroll-Beneficiaries",
+            "api-reference/employee-payroll/rest-endpoints/batch-Download-Payroll-Bonuses-and-Deductions",
+            "api-reference/employee-payroll/rest-endpoints/batch-Upload-Payroll-Bonuses-and-Deductions"
+          ]
+        },
+        {
+          "group": "GraphQL Queries",
+          "pages": [
+            "api-reference/employee-payroll/graphql-endpoints"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "ePOS Terminal",
+      "pages": [
+        {
+          "group": "REST Endpoints",
+          "pages": [        
+            "api-reference/ePOS/rest-endpoints/create-Transaction-Pin",
+            "api-reference/ePOS/rest-endpoints/download-User-Call-Data",
+            "api-reference/ePOS/rest-endpoints/list-Call-Records",
+            "api-reference/ePOS/rest-endpoints/update-Transaction-Pin"
+          ]
+        },
+        {
+          "group": "GraphQL Queries",
+          "pages": [
+            "api-reference/ePOS/graphql-endpoints"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Invoice Creation",
+      "pages": [
+        {
+          "group": "REST Endpoints",
+          "pages": [        
+            "api-reference/invoice-creation/rest-endpoints/get-Invoice-by-ID",
+            "api-reference/invoice-creation/rest-endpoints/list-Invoice-for-Bank-Partners"
+          ]
+        },
+        {
+          "group": "GraphQL Queries",
+          "pages": [
+            "api-reference/invoice-creation/graphql-endpoints"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Tuition Payment",
+      "pages": [
+        {
+          "group": "REST Endpoints",
+          "pages": [        
+            "api-reference/tuition-payment/rest-endpoints"
+          ]
+        },
+        {
+          "group": "GraphQL Queries",
+          "pages": [
+            "api-reference/tuition-payment/graphql-endpoints"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Savings",
+      "pages": [
+        {
+          "group": "REST Endpoints",
+          "pages": [        
+            "api-reference/savings/rest-endpoints/create-Savings",
+            "api-reference/savings/rest-endpoints/create-Savings-Wallet",
+            "api-reference/savings/rest-endpoints/fetch-Savings-Wallet-Balance",
+            "api-reference/savings/rest-endpoints/fetch-Savings-Wallet-Transaction-Statement"
+          ]
+        },
+        {
+          "group": "GraphQL Queries",
+          "pages": [
+            "api-reference/savings/graphql-endpoints"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Wallet Transactions",
+      "pages": [
+        {
+          "group": "REST Endpoints",
+          "pages": [        
+            "api-reference/wallets/rest-endpoints/download-Wallet-Transactions-Event-Data",
+            "api-reference/wallets/rest-endpoints/fetch-ePOS-Wallet-by-ID",
+            "api-reference/wallets/rest-endpoints/fetch-Wallet-by-ID",
+            "api-reference/wallets/rest-endpoints/get-Parents-by-Organization-ID",
+            "api-reference/wallets/rest-endpoints/grant-Cashbacks",
+            "api-reference/wallets/rest-endpoints/list-Bank-Partner-Wallets",
+            "api-reference/wallets/rest-endpoints/list-ePOS-Settlements",
+            "api-reference/wallets/rest-endpoints/list-Organization-Settlements",
+            "api-reference/wallets/rest-endpoints/list-Wallet-Transactions-For-Bank-Partner",
+            "api-reference/wallets/rest-endpoints/list-Wallet-Transactions",
+            "api-reference/wallets/rest-endpoints/return-Wallet-Permissions"
+          ]
+        },
+        {
+          "group": "GraphQL Queries",
+          "pages": [
+            "api-reference/wallets/graphql-endpoints"
+          ]
+        }
       ]
     }
   ],
