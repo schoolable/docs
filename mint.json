@@ -56,7 +56,7 @@
       ]
     },
     {
-      "group": "User Creation",
+      "group": "User and Organization Creation",
       "pages": [
         {
           "group": "REST Endpoints",
@@ -185,18 +185,18 @@
       ]
     },
     {
-      "group": "Tuition Payment",
+      "group": "Products, Orders and Payment",
       "pages": [
         {
           "group": "REST Endpoints",
           "pages": [        
-            "api-reference/tuition-payment/rest-endpoints/getTuition"
+            "api-reference/products/rest-endpoints/getTuition"
           ]
         },
         {
           "group": "GraphQL Queries",
           "pages": [
-            "api-reference/tuition-payment/graphql-endpoints"
+            "api-reference/products/graphql-endpoints"
           ]
         }
       ]
