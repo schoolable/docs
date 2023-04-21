@@ -190,7 +190,7 @@
         {
           "group": "REST Endpoints",
           "pages": [        
-            "api-reference/tuition-payment/rest-endpoints"
+            "api-reference/tuition-payment/rest-endpoints/getTuition"
           ]
         },
         {
