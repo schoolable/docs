@@ -51,7 +51,6 @@
       "group": "Overview",
       "pages": [
         "api-reference/authentication", 
-        "api-reference/rate-limits", 
         "api-reference/status-and-error-codes"
       ]
     },
@@ -95,7 +94,7 @@
           "pages": [        
             "api-reference/access-control/rest-endpoints/create-Attendance",
             "api-reference/access-control/rest-endpoints/get-Access-Code-by-Family-ID",
-            "api-reference/access-control/rest-endpoints/get-Access-Code"
+            "api-reference/access-control/rest-endpoints/get-Access-Code-Details"
           ]
         },
         {
