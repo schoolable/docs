@@ -190,7 +190,9 @@
         {
           "group": "REST Endpoints",
           "pages": [        
-            "api-reference/products/rest-endpoints/getTuition"
+            "api-reference/products/rest-endpoints/create-Order",
+            "api-reference/products/rest-endpoints/filter-Orders-By-PAN",
+            "api-reference/products/rest-endpoints/list-Orders"
           ]
         },
         {
