@@ -114,7 +114,8 @@
             "api-reference/cards/rest-endpoints/batch-Upload-Cash-Cards",
             "api-reference/cards/rest-endpoints/block-Card",
             "api-reference/cards/rest-endpoints/fetch-Card-Details",
-            "api-reference/cards/rest-endpoints/initiate-Card-Transaction",
+            "api-reference/cards/rest-endpoints/fetch-Card-By-ID",
+            "api-reference/cards/rest-endpoints/initiate-NFC-Transaction",
             "api-reference/cards/rest-endpoints/unblock-Card"
           ]
         },
