@@ -8,11 +8,16 @@ Returns the details of the Financial Relations Manager of an organization. This 
 
 ### Arguments
 
-The ```getFinancialRelationsManager``` query accepts only the ```organizationId```.
+The ```getFinancialRelationsManager``` query accepts ```GetFinancialRelationsManagerInput``` argument which is an object that contains only one item; ```organizationId```.
 
-<ParamField query="organizationId" type="ID" required>
-  This is the ID assigned to an organization.
-</ParamField>
+<ResponseField name="GetFinancialRelationsManagerInput" type="GetFinancialRelationsManagerInput!">
+  <Expandable title="properties">
+    <ParamField query="organizationId" type="ID" required>
+        This is the ID assigned to an organization.
+    </ParamField>
+  </Expandable>
+</ResponseField>
+
 
 ### Returns
 
