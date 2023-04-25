@@ -81,7 +81,13 @@
         {
           "group": "GraphQL Queries",
           "pages": [
-            "api-reference/user-creation/graphql-endpoints"
+            "api-reference/user-creation/graphql-endpoints/queries/getFamily",
+            "api-reference/user-creation/graphql-endpoints/queries/getFamilyInOrganization",
+            "api-reference/user-creation/graphql-endpoints/queries/getFinancialRelationsManager",
+            "api-reference/user-creation/graphql-endpoints/queries/getOrganizationbyID",
+            "api-reference/user-creation/graphql-endpoints/queries/getOrganizationExternalSettlementAccount",
+            "api-reference/user-creation/graphql-endpoints/queries/getOrganizationMemberbyUserID",
+            "api-reference/user-creation/graphql-endpoints/queries/getOrganizationMembers"
           ]
         }
       ]
@@ -232,7 +238,6 @@
             "api-reference/wallets/rest-endpoints/download-Wallet-Transactions-Event-Data",
             "api-reference/wallets/rest-endpoints/fetch-ePOS-Wallet-by-ID",
             "api-reference/wallets/rest-endpoints/fetch-Wallet-by-ID",
-            "api-reference/wallets/rest-endpoints/get-Parents-by-Organization-ID",
             "api-reference/wallets/rest-endpoints/grant-Cashbacks",
             "api-reference/wallets/rest-endpoints/list-Bank-Partner-Wallets",
             "api-reference/wallets/rest-endpoints/list-ePOS-Settlements",
