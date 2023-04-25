@@ -1,50 +1,50 @@
 ---
-title: "Get A Family's Details"
+title: "Get A Family Within An Organization"
 api: "GET https://api.schoolablesandbox.com/graphql/core/user"
 ---
-Returns a family in an organization.
+Returns a family in an organization. This query is on the [Core User](https://api.schoolablesandbox.com/graphql/core/user) endpoint both on Sandbox and Production.
 
 <Tip>It's important to check out the [Authentication](api-reference/authentication) and [Caveat](api-reference/authentication) page before proceeding to use this page.  </Tip>
 
 ### Arguments
 
-The **getFamilyinOrganization** query accepts the GetFamilyInOrganizationInput argument which is an object that contains two items; 
+The ```getFamilyinOrganization``` query accepts the ```GetFamilyInOrganizationInput``` argument which is an object that contains two items; 
 ```familyId``` and ```organizationId```.
 
-<ParamField name="GetFamilyInOrganizationInput" type="GetFamilyInOrganizationInput!">
+<ResponseField name="GetFamilyInOrganizationInput" type="GetFamilyInOrganizationInput!">
   <Expandable title="properties">
-    <ParamField query="familyID" type="ID" required>
-        This is the ID assigned to a family
+    <ParamField query="familyId" type="ID" required>
+        This is the ID assigned to a family.
     </ParamField>
-    <ParamField query="organizationID" type="ID" required>
+    <ParamField query="organizationId" type="ID" required>
         This is the ID assigned to a organization that the family belongs to.
     </ParamField>
   </Expandable>
-</ParamField>
+</ResponseField>
 
 ### Returns
 
-The getFamily query returns the following parameters;
+The ```getFamilyinOrganization``` query returns the following parameters;
 
 <ParamField body="name" type="string" required>
 This is the registered name of the family
 </ParamField>
 <ParamField body="id" type="ID" required>
- This is the ID of the family. It is the same as the argument provided in the query.
+ This is the ID of the family. 
 </ParamField>
 <ParamField body="parents" type="[User!]!" required>
     This is an array of all the registered parents in the family. 
-    It returns an array of the [User](www.google.com) object.
+    It is an array of the [User](www.google.com) object.
 </ParamField>
 <ParamField body="children" type="[User!]!" required>
     This is an array of all the registered children in the family. 
-    It returns an array of the [User](www.google.com) object.
+    It is an array of the [User](www.google.com) object.
 </ParamField>
 <ParamField body="createdAt" type="float" required>
-This is date the family was created. It is a float equivalent to what [Date.prototype.getTime()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime) returns.
+    This is date the family was created. It is a float equivalent to what [Date.prototype.getTime()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime) returns.
 </ParamField>
-<ParamField body="updatedAt" type="float" required>
-This is date the family was last updated. It is also a float equivalent to what [Date.prototype.getTime()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime) returns.
+<ParamField body="updatedAt" type="float">
+    This is date the family was last updated. It is also a float equivalent to what [Date.prototype.getTime()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime) returns.
 </ParamField>
 
 

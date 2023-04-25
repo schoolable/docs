@@ -1,0 +1,96 @@
+---
+title: "Get The Financial Relations Manager of an Organization"
+api: "GET https://api.schoolablesandbox.com/graphql/core/user"
+---
+Returns the details of the Financial Relations Manager of an organization. This query is on the [Core User](https://api.schoolablesandbox.com/graphql/core/user) endpoint both on Sandbox and Production.
+
+<Tip>It's important to check out the [Authentication](api-reference/authentication) and [Caveat](api-reference/authentication) page before proceeding to use this page.  </Tip>
+
+### Arguments
+
+The ```getFinancialRelationsManager``` query accepts only the ```organizationId```.
+
+<ParamField query="organizationId" type="ID" required>
+  This is the ID assigned to an organization.
+</ParamField>
+
+### Returns
+
+The ```getFinancialRelationsManager``` query returns the following parameters;
+
+<ParamField body="firstName" type="string" required>
+    This is the registered first name of the Financial Relations Manager
+</ParamField>
+<ParamField body="middleName" type="string">
+    This is the registered middle name of the Financial Relations Manager 
+</ParamField>
+<ParamField body="lastName" type="string">
+    This is the registered last name of the Financial Relations Manager 
+</ParamField>
+<ParamField body="id" type="ID" required>
+    This is the ID assigned to the Financial Relations Manager.
+</ParamField>
+<ParamField body="familyId" type="ID">
+    This is the ID of the family to which the Financial Relations Manager belongs.
+</ParamField>
+<ParamField body="schoolableId" type="ID">
+    This is the schoolable ID of the Financial Relations Manager belongs.
+</ParamField>
+<ParamField body="familyRole" type="string">
+    This is the role of the Financial Relations Manager in the family to which it belongs.
+</ParamField>
+<ParamField body="phoneNumber" type="string">
+    This is the phone number of the Financial Relations Manager.
+</ParamField>
+<ParamField body="alternatePhoneNumber" type="string">
+    This is the backup phone number of the Financial Relations Manager.
+</ParamField>
+<ParamField body="phoneNumberVerified" type="boolean" required>
+    This boolean checks if the phone number of Financial Relations Manager is verified.
+</ParamField>
+<ParamField body="birthDay" type="number" required>
+    This is the birthday of the Financial Relations Manager.
+</ParamField>
+<ParamField body="birthMonth" type="number" required>
+    This is the birthday of the Financial Relations Manager.
+</ParamField>
+<ParamField body="birthYear" type="number" required>
+    This is the birthday of the Financial Relations Manager.
+</ParamField>
+<ParamField body="bvn" type="string">
+    This is the bank verification number(BVN) of the Financial Relations Manager.
+</ParamField>
+<ParamField body="nin" type="string">
+    This is the national identification number(NIN) of the Financial Relations Manager.
+</ParamField>
+<ParamField body="emailAddress" type="string">
+    This is the email address of the Financial Relations Manager.
+</ParamField>
+<ParamField body="emailVerified" type="boolean" required>
+    This boolean checks if the email address of Financial Relations Manager is verified.
+</ParamField>
+<ParamField body="gender" type="UserGender!" required>
+    This is the gender of the Financial Relations Manager.
+</ParamField>
+<ParamField body="status" type="UserStatus!" required>
+    This is the user status of the Financial Relations Manager. It could be either of three enums; ```ACTIVE```, ```INACTIVE``` or ```DELETED```.
+</ParamField>
+<ParamField body="referralCode" type="string">
+    This is the referral code assigned to the Financial Relations Manager.
+</ParamField>
+<ParamField body="refereeCode" type="string">
+    This is the referee code assigned to the Financial Relations Manager.
+</ParamField>
+<ParamField body="isTransactionPinSet" type="boolean" required>
+    This boolean checks if the Financial Relations Manager has a transaction pin or not.
+</ParamField>
+<ParamField body="profileImageUrl" type="string">
+    This is the link to the profile image of the Financial Relations Manager.
+</ParamField>
+<ParamField body="createdAt" type="float" required>
+    This is date the family was created. It is a float equivalent to what [Date.prototype.getTime()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime) returns.
+</ParamField>
+<ParamField body="updatedAt" type="float">
+    This is date the family was last updated. It is also a float equivalent to what [Date.prototype.getTime()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime) returns.
+</ParamField>
+
