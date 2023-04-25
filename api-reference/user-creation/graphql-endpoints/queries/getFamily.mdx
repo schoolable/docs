@@ -1,5 +1,24 @@
 ---
 title: "Get A Family's Details"
-api: "GET graphql/core/user"
+api: "GET https://api.schoolablesandbox.com/graphql/core/user"
 ---
+
+### Arguments
+
+The getFamily query accepts only the Family ID.
+
+<ParamField query="familyID" type="string" required>
+  This is the ID assigned to a family
+</ParamField>
+
+### Return Parameters
+
+The getFamily query returns the following parameters;
+
+<ParamField body="name" type="string" required />
+<ParamField body="id" type="ID" required />
+<ParamField body="members" type="[User]" required />
+<ParamField body="createdAt" type="float" required />
+<ParamField body="updatedAt" type="float" required />
+### Responses
 
