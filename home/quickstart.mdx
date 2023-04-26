@@ -3,3 +3,19 @@ title: Quickstart
 description: "This page will help you get up and running with Schoolable's API services"
 ---
 
+## Step 1: Create an account
+
+Quick sign-up is via the the ```registerUserFromSchoolablePay``` mutation on the [Core User](https://api.schoolablesandbox.com/graphql/core/user) endpoint
+on our Apollo GraphQL studio. 
+
+![Image of the Apollo Playground](images/quickstart.png)
+
+<Note>You can create an account by simply supplying only the required parameters</Note>
+
+After creating an account, you will receive an email with an OTP or link to verify your account. Click on the link to verify your account.
+
+## Step 2: Create an API key
+
+After verifying your account, you may then go ahead to create an access token. You can create an access token on any of our enviroments by 
+simply supplying your registered email address and password. After that, you should get an access token that you can now add to your authentication header
+to gain unrestricted access our API services.

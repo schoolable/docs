@@ -39,7 +39,7 @@
       "pages": ["introduction", "home/quickstart", "home/enviroments"]
     },
     {
-      "group": "Entities",
+      "group": "Roles and Entities",
       "pages": ["entities/individuals", "entities/schools"]
     },
     {
