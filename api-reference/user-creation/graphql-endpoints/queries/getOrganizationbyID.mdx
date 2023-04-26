@@ -22,79 +22,79 @@ The ```getOrganizationById``` query accepts the ```GetOrganizationByIdInput``` a
 
 The ```getOrganizationById``` query returns the following parameters;
 
-<ResponseField body="firstName" type="string" required>
+<ResponseField name="firstName" type="string" required>
     This is the registered first name of the Financial Relations Manager
 </ResponseField>
-<ResponseField body="middleName" type="string">
+<ResponseField name="middleName" type="string">
     This is the registered middle name of the Financial Relations Manager 
 </ResponseField>
-<ResponseField body="lastName" type="string">
+<ResponseField name="lastName" type="string">
     This is the registered last name of the Financial Relations Manager 
 </ResponseField>
-<ResponseField body="id" type="ID" required>
+<ResponseField name="id" type="ID" required>
     This is the ID assigned to the Financial Relations Manager.
 </ResponseField>
-<ResponseField body="familyId" type="ID">
+<ResponseField name="familyId" type="ID">
     This is the ID of the family to which the Financial Relations Manager belongs.
 </ResponseField>
-<ResponseField body="schoolableId" type="ID">
+<ResponseField name="schoolableId" type="ID">
     This is the schoolable ID of the Financial Relations Manager belongs.
 </ResponseField>
-<ResponseField body="familyRole" type="string">
+<ResponseField name="familyRole" type="string">
     This is the role of the Financial Relations Manager in the family to which it belongs.
 </ResponseField>
-<ResponseField body="phoneNumber" type="string">
+<ResponseField name="phoneNumber" type="string">
     This is the phone number of the Financial Relations Manager.
 </ResponseField>
-<ResponseField body="alternatePhoneNumber" type="string">
+<ResponseField name="alternatePhoneNumber" type="string">
     This is the backup phone number of the Financial Relations Manager.
 </ResponseField>
-<ResponseField body="phoneNumberVerified" type="boolean" required>
+<ResponseField name="phoneNumberVerified" type="boolean" required>
     This boolean checks if the phone number of Financial Relations Manager is verified.
 </ResponseField>
-<ResponseField body="birthDay" type="number" required>
+<ResponseField name="birthDay" type="number" required>
     This is the birthday of the Financial Relations Manager.
 </ResponseField>
-<ResponseField body="birthMonth" type="number" required>
+<ResponseField name="birthMonth" type="number" required>
     This is the birthday of the Financial Relations Manager.
 </ResponseField>
-<ResponseField body="birthYear" type="number" required>
+<ResponseField name="birthYear" type="number" required>
     This is the birthday of the Financial Relations Manager.
 </ResponseField>
-<ResponseField body="bvn" type="string">
+<ResponseField name="bvn" type="string">
     This is the bank verification number(BVN) of the Financial Relations Manager.
 </ResponseField>
-<ResponseField body="nin" type="string">
+<ResponseField name="nin" type="string">
     This is the national identification number(NIN) of the Financial Relations Manager.
 </ResponseField>
-<ResponseField body="emailAddress" type="string">
+<ResponseField name="emailAddress" type="string">
     This is the email address of the Financial Relations Manager.
 </ResponseField>
-<ResponseField body="emailVerified" type="boolean" required>
+<ResponseField name="emailVerified" type="boolean" required>
     This boolean checks if the email address of Financial Relations Manager is verified.
 </ResponseField>
-<ResponseField body="gender" type="UserGender!" required>
+<ResponseField name="gender" type="UserGender!" required>
     This is the gender of the Financial Relations Manager.
 </ResponseField>
-<ResponseField body="status" type="UserStatus!" required>
+<ResponseField name="status" type="UserStatus!" required>
     This is the user status of the Financial Relations Manager. It could be either of three enums; ```ACTIVE```, ```INACTIVE``` or ```DELETED```.
 </ResponseField>
-<ResponseField body="referralCode" type="string">
+<ResponseField name="referralCode" type="string">
     This is the referral code assigned to the Financial Relations Manager.
 </ResponseField>
-<ResponseField body="refereeCode" type="string">
+<ResponseField name="refereeCode" type="string">
     This is the referee code assigned to the Financial Relations Manager.
 </ResponseField>
-<ResponseField body="isTransactionPinSet" type="boolean" required>
+<ResponseField name="isTransactionPinSet" type="boolean" required>
     This boolean checks if the Financial Relations Manager has a transaction pin or not.
 </ResponseField>
-<ResponseField body="profileImageUrl" type="string">
+<ResponseField name="profileImageUrl" type="string">
     This is the link to the profile image of the Financial Relations Manager.
 </ResponseField>
-<ResponseField body="createdAt" type="float" required>
+<ResponseField name="createdAt" type="float" required>
     This is date the family was created. It is a float equivalent to what [Date.prototype.getTime()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime) returns.
 </ResponseField>
-<ResponseField body="updatedAt" type="float">
+<ResponseField name="updatedAt" type="float">
     This is date the family was last updated. It is also a float equivalent to what [Date.prototype.getTime()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime) returns.
 </ResponseField>
 
