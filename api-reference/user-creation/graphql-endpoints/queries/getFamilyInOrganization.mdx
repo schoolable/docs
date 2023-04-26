@@ -26,26 +26,26 @@ The ```getFamilyinOrganization``` query accepts the ```GetFamilyInOrganizationIn
 
 The ```getFamilyinOrganization``` query returns the following parameters;
 
-<ParamField body="name" type="string" required>
+<ResponseField name="name" type="string" required>
 This is the registered name of the family
-</ParamField>
-<ParamField body="id" type="ID" required>
+</ResponseField>
+<ResponseField name="id" type="ID" required>
  This is the ID of the family. 
-</ParamField>
-<ParamField body="parents" type="[User!]!" required>
+</ResponseField>
+<ResponseField name="parents" type="[User!]!" required>
     This is an array of all the registered parents in the family. 
     It is an array of the [User](www.google.com) object.
-</ParamField>
-<ParamField body="children" type="[User!]!" required>
+</ResponseField>
+<ResponseField name="children" type="[User!]!" required>
     This is an array of all the registered children in the family. 
     It is an array of the [User](www.google.com) object.
-</ParamField>
-<ParamField body="createdAt" type="float" required>
+</ResponseField>
+<ResponseField name="createdAt" type="float" required>
     This is date the family was created. It is a float equivalent to what [Date.prototype.getTime()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime) returns.
-</ParamField>
-<ParamField body="updatedAt" type="float">
+</ResponseField>
+<ResponseField name="updatedAt" type="float">
     This is date the family was last updated. It is also a float equivalent to what [Date.prototype.getTime()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime) returns.
-</ParamField>
+</ResponseField>
 
 
 
